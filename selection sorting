@@ -10,3 +10,5 @@ def sort(nums):
 nums=[18,7,97,17,54,2,100]
 nums.sort()
 print(nums)
+
+output : [2, 7, 17, 18, 54, 97, 100]
