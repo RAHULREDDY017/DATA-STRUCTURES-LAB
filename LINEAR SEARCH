@@ -1,0 +1,13 @@
+def lin_search(arr,n,p):
+  for i in range(0,n):
+    if (arr[i] == p):
+      return i
+      return -1
+arr = [2,4,6,8,10,12,14,16]
+p = 10
+n = len(arr)
+result = lin_search(arr,n,p)
+if (result == -1):
+  print("Element is not present in the array")
+else:
+  print("Element is present at the index:",result)  
