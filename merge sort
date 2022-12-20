@@ -44,3 +44,9 @@ def printList(arr):
     for i in range(len(arr)):
         print(arr[i], end=" ")
     print()
+    
+    output : Given array is
+38 27 43 3 9 82 10 
+Sorted array is: 
+3 9 10 27 38 43 82 
+
